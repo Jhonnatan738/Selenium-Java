@@ -3,7 +3,7 @@ Feature: Acceso y verificacion del formulario
  	Para Verificar los campos del Formulario
  	Entonces se efectuara una verificacion correctamente 
 
-  Background:
+  Background: Se ingresara a la plagina de DemoQA
     Given el usuario está en la página de DemoQA
     And navega a la sección de formularios
 
@@ -14,10 +14,10 @@ Feature: Acceso y verificacion del formulario
 
   Scenario: Se podran validaran los inputs obligatorios del formulario
     Given El usuario podra ingresar tanto el nombre como el apellido
-    When El usuario dara click sobre el boton Submit del formulario
+    When El usuario da click sobre el botón Submit
     And El usuario podrá seguir visualizando el formulario aun con la información previamente ingresada
-    And El usuario intentará agregar más de 10 caracteres "alfabéticos" y visualizar la información errónea
-    And El usuario intentará agregar más de 10 caracteres "alfanuméricos" y visualizar la información errónea
+    And El usuario intentará agregar más de diez caracteres "alfabéticos" y visualizar la información errónea
+    And El usuario intentará agregar más de diez caracteres "alfanuméricos" y visualizar la información errónea
     And El usuario ingresará un número de contacto válido
     Then Se podrá visualizar que el campo Input fue ingresado correctamente
 
@@ -36,7 +36,7 @@ Feature: Acceso y verificacion del formulario
     Then Se podra visualizar el cambio de fecha exitosamente
 
   Scenario: Se Validara el envio de los datos del formulario
-    Given El usuario podra dar click en el boton Submit
+    Given El usuario da click sobre el botón Submit
     When El usuario podra visualizar la aparicion de un pop up informativo
     And se comparara la informacion ingresada con la mostrada en el pop up
     Then el usuario podra dar click en el boton Close del pop up
