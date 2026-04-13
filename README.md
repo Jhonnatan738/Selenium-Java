@@ -62,13 +62,12 @@ Cómo ejecutar localmente
 
 Clona el repositorio:
 
-    git clone https://github.com/tu-usuario/tu-repo.git
-
-Asegúrate de tener instalados Java 17 y Maven.
+    https://github.com/Jhonnatan738/Selenium-Java.git
 
 Ejecuta las pruebas desde la terminal:
 
-    mvn clean test
+    mvn clean install
+    mvn test
 
 Revisa los resultados en la carpeta reports/.
 
