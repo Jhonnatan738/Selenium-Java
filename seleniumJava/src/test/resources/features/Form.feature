@@ -10,7 +10,7 @@ Feature: Acceso y verificacion del formulario
   Scenario: Validación de campos obligatorios al enviar formulario vacío
     Given El usuario accede al formulario
     When El usuario da click sobre el botón Submit
-    Then Los campos Name, Last Name y Number se muestran resaltados
+    Then Los campos marcados como requeridos se muestran resaltados
 
   Scenario: Se podran validaran los inputs obligatorios del formulario
     Given El usuario podra ingresar tanto el nombre como el apellido
@@ -22,7 +22,7 @@ Feature: Acceso y verificacion del formulario
     Then Se podrá visualizar que el campo Input fue ingresado correctamente
 
   Scenario: Se podra verificar el ingreso correcto de un correo electronico
-    Given El usuario podra borrar la informacion ingresada previamente
+    Given El usuario podrá ingresar un genero requerido
     When El usuario intentara ingresar un email sin el caracter @ pero con la extension correcta
     And se podra visualizar que el input se marca erroneo
     And El usuario intentara ingresar un email con el @ pero sin la extension

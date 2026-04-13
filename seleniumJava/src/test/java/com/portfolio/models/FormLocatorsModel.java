@@ -7,8 +7,10 @@ public class FormLocatorsModel {
 	public FormLocatorsModel() {}
 
 	private By allPageMenus = By.className("card-body");
-	private By mainMessage = By.className("col-12 mt-4 col-md-6 col-xl-7");
-	private By firstItemOptions = By.id("item-0");
+	private By mainMessage = By.xpath("//*[@class='col-12 mt-4 col-md-6 col-xl-7']");
+	private By leftPannel = By.className("header-text");
+	private By firstItemOptions = By.xpath("//*[@class='element-list accordion-collapse collapse show']");
+	private By daysOptions = By.xpath("//*[contains(@class,'react-datepicker__day')]");
 	private By nameInput = By.id("firstName");
 	private By lastNameInput = By.id("lastName");
 	private By emailInput = By.id("userEmail");
@@ -99,6 +101,18 @@ public class FormLocatorsModel {
 	}
 	public By getSubmitButton() {
 		return submitButton;
+	}
+
+	public By getLeftPannel() {
+		return leftPannel;
+	}
+
+	public By getDaysOptions() {
+		return daysOptions;
+	}
+
+	public void setDaysOptions(By daysOptions) {
+		this.daysOptions = daysOptions;
 	}
 
 }
