@@ -30,13 +30,15 @@ jobs:
 
     - name: Install dependencies
       run: mvn clean install -DskipTests
+      working-directory: seleniumJava
 
     - name: Run tests
       run: mvn test
+      working-directory: seleniumJava
 
     - name: Upload test reports
       if: always()
       uses: actions/upload-artifact@v4
       with:
         name: test-report
-        path: target/
+        path: seleniumJava/target/
