@@ -15,6 +15,7 @@ public class DriverFactory {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless=new");
+		options.addArguments("--window-size=1920,1080");
 		options.addArguments("--start-maximized");
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
