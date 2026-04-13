@@ -3,7 +3,7 @@ Feature: Acceso y verificacion del formulario
  	Para Verificar los campos del Formulario
  	Entonces se efectuara una verificacion correctamente 
 
-  Background: Se ingresara a la plagina de DemoQA
+  Scenario: Se ingresara a la plagina de DemoQA
     Given el usuario está en la página de DemoQA
     And navega a la sección de formularios
 

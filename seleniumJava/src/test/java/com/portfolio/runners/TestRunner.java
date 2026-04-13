@@ -4,11 +4,12 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		features = "src/test/resources/features",
-		glue = {"steps", "hooks"},
+		glue = {"com.portfolio.stepDefinitions",
+			    "com.portfolio.hooks"},
 		plugin = {
 				"pretty",
-				"html:target/cucumber-report.html",
-				"json:target/cucumber.json",
+				"html:reports/cucumber-report.html",
+				"json:reports/cucumber.json",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 		},
 		monochrome = true

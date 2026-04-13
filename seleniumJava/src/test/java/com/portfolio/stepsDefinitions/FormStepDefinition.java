@@ -1,5 +1,8 @@
 package com.portfolio.stepsDefinitions;
 
+import com.portfolio.pages.FormPages;
+import com.portfolio.utils.DriverFactory;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -7,19 +10,21 @@ import io.cucumber.java.en.When;
 
 public class FormStepDefinition {
 	
+	FormPages formPages = new FormPages(DriverFactory.getDriver());
+	
 	@Given("el usuario está en la página de DemoQA")
 	public void validatePageVisualization() {
-
+		formPages.pageValidation();
 	}
 	
 	@And("navega a la sección de formularios")
 	public void selectFormsModule() {
-
+		formPages.navigateToFormOption();
 	}
 	
 	@Given("El usuario accede al formulario")
 	public void joinFormsModule() {
-
+		formPages.succefullJoinIntoFormFunc();
 	}
 	
 	@When("El usuario da click sobre el botón Submit")
@@ -42,7 +47,7 @@ public class FormStepDefinition {
 
 	}
 	
-	@Given("El usuario intentará agregar más de diez caracteres (alfabéticos/alfanuméricos) y visualizar la información errónea")
+	@Given("El usuario intentará agregar más de diez caracteres {string} y visualizar la información errónea")
 	public void insertDataEmail(String tipoValor) {
 
 	}
