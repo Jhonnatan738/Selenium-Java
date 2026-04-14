@@ -1,7 +1,18 @@
 ![Build Status](https://github.com/Jhonnatan738/Selenium-java/actions/workflows/maven.yml/badge.svg)
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=QA%20Automation%20Framework&fontSize=70" />
+</p>
 
-Custom QA Automation Framework (Selenium & Cucumber)
+<h1 align="center">🚀 Selenium & Serenity BDD Portfolio</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/-selenium-%2343B02A?style=for-the-badge&logo=selenium&logoColor=white" />
+  <img src="https://img.shields.io/badge/Serenity%20BDD-61B15A?style=for-the-badge&logo=serenitybdd&logoColor=white" />
+  <img src="https://img.shields.io/badge/github%20actions-%232088FF.svg?style=for-the-badge&logo=githubactions&logoColor=white" />
+</p>
+
 
 Este proyecto consiste en un framework de automatización robusto diseñado y construido desde cero. A diferencia de usar herramientas "out-of-the-box", esta solución ha sido estructurada pieza a pieza seleccionando librerías específicas para crear un ecosistema de pruebas escalable, profesional y orientado a resultados visuales.
 Arquitectura del Framework (Built from Scratch)
