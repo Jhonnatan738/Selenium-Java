@@ -20,7 +20,7 @@ Este repositorio alberga un **framework de automatización robusto diseñado y c
 | **Estrategia** | ![Cucumber](https://img.shields.io/badge/Cucumber-232121?style=flat-square&logo=cucumber&logoColor=white) BDD |
 | **Gestión** | ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white) |
 | **Pipeline** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
-| **Reporting** | Extent Reports (Spark) |
+| **Reporting** | Extent Reports (Spark), Cucumber Reports |
 
 ---
 
@@ -31,7 +31,7 @@ La arquitectura sigue el patrón de diseño **Page Object Model (POM)** integrad
 * **Núcleo de Automatización:** Construido sobre Selenium WebDriver para una manipulación precisa del DOM.
 * **Motor de BDD:** Implementación completa con Cucumber (Java & TestNG), traduciendo escenarios técnicos a lenguaje de negocio (**Gherkin**).
 * **Gestión Dinámica de Binarios:** Integración de `WebDriverManager` para eliminar la gestión manual de drivers y asegurar compatibilidad entre entornos.
-* **Reportería Avanzada:** Sistema personalizado mediante **Extent Reports**, configurado para generar dashboards interactivos y capturas de pantalla automáticas en caso de fallo.
+* **Reportería Avanzada:** Sistema personalizado mediante **Extent Reports**, configurado para generar dashboards interactivos y capturas de pantalla automáticas durante todo el proceso de ejecución.
 
 ## Escenarios de Prueba (Gherkin)
 
