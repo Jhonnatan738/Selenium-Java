@@ -47,6 +47,7 @@ La arquitectura sigue el patrón de diseño **Page Object Model (POM)** integrad
 
 * **Reportes:** El framework genera dashboards detallados mediante **Extent Reports**.
 * **Capturas de pantalla:** Se adjuntan automáticamente al reporte tanto en resultados exitosos como fallidos para auditoría visual.
+* **Reportes Pipelines:** Los resultados se encuentran en el pipeline listos para descargar y revisar, se cargan como artefactos
 * **Ubicación local:** Los resultados se encuentran en la carpeta `reports/` tras la ejecución.
 
 
