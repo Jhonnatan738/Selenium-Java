@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Selenium & Java Automation Suite</h1>
+<h1 align="center">Selenium & Java Automation Suite</h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/actions/workflow/status/Jhonnatan738/Selenium-java/maven.yml?style=for-the-badge" />
@@ -65,5 +65,5 @@ Ejecuta las pruebas desde la terminal:
     Resultados: Revisa la carpeta reports/ 
 
 <p align="center">
-Desarrollado por <a href="https://www.jhonnatanposada.com/">Jhonnatan Posada</a>
+Desarrollado por <a href="https://www.jhonnatanposada.com/" target="_blank">Jhonnatan Posada</a>
 </p>
