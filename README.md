@@ -1,90 +1,73 @@
-![Build Status](https://github.com/Jhonnatan738/Selenium-java/actions/workflows/maven.yml/badge.svg)
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=QA%20Automation%20Framework&fontSize=70" />
 </p>
 
-<h1 align="center">🚀 Selenium & Serenity BDD Portfolio</h1>
+<h1 align="center">🚀 Selenium & Java Automation Suite</h1>
 
 <p align="center">
+  <img src="https://img.shields.io/github/actions/workflow/status/Jhonnatan738/Selenium-java/maven.yml?style=for-the-badge" />
   <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/-selenium-%2343B02A?style=for-the-badge&logo=selenium&logoColor=white" />
   <img src="https://img.shields.io/badge/Serenity%20BDD-61B15A?style=for-the-badge&logo=serenitybdd&logoColor=white" />
-  <img src="https://img.shields.io/badge/github%20actions-%232088FF.svg?style=for-the-badge&logo=githubactions&logoColor=white" />
 </p>
 
+## 📝 Sobre el Proyecto
 
-Este proyecto consiste en un framework de automatización robusto diseñado y construido desde cero. A diferencia de usar herramientas "out-of-the-box", esta solución ha sido estructurada pieza a pieza seleccionando librerías específicas para crear un ecosistema de pruebas escalable, profesional y orientado a resultados visuales.
-Arquitectura del Framework (Built from Scratch)
+Este repositorio consiste en un **framework de automatización robusto diseñado y construido desde cero**. A diferencia de las herramientas convencionales, esta solución ha sido estructurada pieza a pieza seleccionando librerías específicas para crear un ecosistema de pruebas escalable, profesional y orientado a resultados visuales.
 
-La arquitectura sigue el patrón de diseño Page Object Model (POM) integrado con BDD, utilizando un stack tecnológico moderno:
+## 🛠️ Tech Stack
 
-Núcleo de Automatización: Construido sobre Selenium WebDriver (v4.13.0) para una manipulación precisa del DOM.
+| Herramienta | Tecnología |
+| :--- | :--- |
+| **Lenguaje** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) v21 |
+| **Automatización** | ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white) v4.13.0 |
+| **Estrategia** | ![Cucumber](https://img.shields.io/badge/Cucumber-232121?style=flat-square&logo=cucumber&logoColor=white) BDD |
+| **Gestión** | ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white) |
+| **Pipeline** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
+| **Reporting** | Extent Reports & Serenity BDD |
 
-Motor de BDD: Implementación completa con Cucumber (Java & TestNG), permitiendo que los escenarios técnicos se traduzcan en lenguaje de negocio (Gherkin).
+---
 
-Gestión Dinámica de Binarios: Integración de WebDriverManager para eliminar la gestión manual de drivers y asegurar compatibilidad entre entornos.
+## 🏗️ Arquitectura del Framework
 
-Reportería Avanzada: Sistema de reportes personalizado mediante Extent Reports, configurado para generar dashboards interactivos y capturas de pantalla automáticas en caso de fallo.
+La arquitectura sigue el patrón de diseño **Page Object Model (POM)** integrado con **BDD**, garantizando mantenibilidad y legibilidad:
 
-Gestión de Dependencias: Estructurado totalmente con Maven, garantizando un ciclo de vida de compilación y pruebas limpio y reproducible.
+* **Núcleo de Automatización:** Construido sobre Selenium WebDriver para una manipulación precisa del DOM.
+* **Motor de BDD:** Implementación completa con Cucumber, permitiendo que los escenarios técnicos se traduzcan en lenguaje de negocio (**Gherkin**).
+* **Gestión de Binarios:** Integración de `WebDriverManager` para automatizar la compatibilidad de drivers.
+* **Reportería Avanzada:** Sistema personalizado mediante **Extent Reports**, configurado para generar dashboards interactivos y capturas de pantalla automáticas.
 
-Escenarios de Prueba (Gherkin)
+## 🥒 Escenarios de Prueba (Gherkin)
 
-El framework valida flujos críticos de usuario en la plataforma de pruebas DemoQA:
+El framework valida flujos críticos de usuario en plataformas de prueba como **DemoQA**:
 
-Validación de Formulario: Verificación de campos obligatorios y estados de error.
+- ✅ **Validación de Formulario:** Verificación de campos obligatorios y estados de error.
+- ✅ **Integridad de Datos:** Validación de formatos de email y límites de caracteres.
+- ✅ **Lógica de Negocio:** Verificación de cambios de fecha y cálculos dinámicos.
+- ✅ **Confirmación de Envío:** Validación cruzada (*Data Comparison*) entre inputs y modales.
 
-Integridad de Datos: Validación de formatos de email y límites de caracteres.
+## ⚙️ CI/CD & Evidencia
 
-Lógica de Negocio: Verificación de cambios de fecha y cálculos de tiempo (Año anterior + 1 día).
+> [!TIP]
+> **Integración Continua:** El proyecto se ejecuta automáticamente en cada `push` mediante GitHub Actions.
 
-Confirmación de Envío: Validación cruzada (Data Comparison) entre inputs y modales informativos.
+* **Capturas de pantalla:** Se adjuntan automáticamente al reporte (exitosos y fallidos).
+* **Artefactos:** Los reportes HTML quedan disponibles como artefactos descargables en el historial de ejecuciones del Pipeline.
 
-Tech Stack
+## 🚀 Ejecución Local
 
-    Lenguaje: Java 21
-
-    Automatización: Selenium WebDriver (v4.13.0)
-
-    Framework de Pruebas: TestNG & Cucumber (BDD)
-
-    Gestión de Drivers: WebDriverManager
-
-    Reportes: Extent Reports (Spark Reporter)
-
-    CI/CD: GitHub Actions
-
-Configuración del Pipeline (CI/CD)
-
-El proyecto está integrado con GitHub Actions, permitiendo que las pruebas se ejecuten automáticamente en cada push.
-
-Reportes y Evidencia
-
-El framework genera reportes detallados después de cada ejecución mediante Extent Reports, Cucumber Reports.
-
-Capturas de pantalla: Se adjuntan automáticamente al reporte sea de resultado exitoso o fallido.
-
-Dashboard: Visualización del porcentaje de éxito de los escenarios.
-
-Ubicación: reports/ o en caso de querer visualizarlos mediante pipelines estos quedan como artefactos adjuntos para descargar 
-
-Cómo ejecutar localmente
-
-Clona el repositorio:
-
-    https://github.com/Jhonnatan738/Selenium-Java.git
+1. **Clona el repositorio:**
+   ```bash
+   git clone [https://github.com/Jhonnatan738/Selenium-Java.git](https://github.com/Jhonnatan738/Selenium-Java.git)
 
 Ejecuta las pruebas desde la terminal:
+    Bash
 
     mvn clean install
     mvn test
 
-Revisa los resultados en la carpeta reports/.
+    Resultados: Revisa la carpeta reports/ 
 
-
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Selenium](https://img.shields.io/badge/-selenium-%2343B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Cucumber](https://img.shields.io/badge/Cucumber-232121?style=for-the-badge&logo=cucumber&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232088FF.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
+<p align="center">
+Desarrollado por <a href="https://www.google.com/search?q=https://github.com/Jhonnatan738">Jhonnatan738</a>
+</p>
