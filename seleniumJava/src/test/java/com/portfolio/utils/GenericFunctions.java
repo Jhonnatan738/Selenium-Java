@@ -57,13 +57,4 @@ public class GenericFunctions {
 		Assert.assertTrue((Boolean) ((JavascriptExecutor) driver).executeScript("return arguments[0].checkValidity();",
 				component));
 	}
-	
-	public void timer(int seconds) {
-		try {
-			Thread.sleep(seconds);
-		}catch(Exception e) {
-			e.getStackTrace();
-		}
-	}
-
 }

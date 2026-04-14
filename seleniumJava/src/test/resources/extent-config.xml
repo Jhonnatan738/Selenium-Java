@@ -2,6 +2,6 @@
     <configuration>
         <theme>dark</theme>
         <documentTitle>Automation Report</documentTitle>
-        <reportName>Regression Suite</reportName>
+        <reportName>Reporte de Pruebas - jhonnatanposada.com Portafolio</reportName>
     </configuration>
 </extentreports>

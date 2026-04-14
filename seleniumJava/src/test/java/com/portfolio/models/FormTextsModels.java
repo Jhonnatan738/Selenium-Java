@@ -1,5 +1,8 @@
 package com.portfolio.models;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class FormTextsModels {
 	
 	public FormTextsModels() {}
@@ -16,11 +19,14 @@ public class FormTextsModels {
 	private static String todayDate;
 	private static String tomorrowDate;
 	private static String monthFull;
+	private static String selectedDate;
 	private String subject = "Math";
 	private String picture = "./src/test/resources/img/imgExample.png";
 	private String address = "Automation Address Test";
 	private String state = "Haryana";
 	private String city = "Panipat";	
+	private List<String> omitedList = Arrays.asList("Student Name","Student Email","Gender","Mobile","Date of Birth","Subjects","Hobbies","Picture","Address","State and City","Male","Female","Other");
+			
 
 	public String getMainMessage() {
 		return mainMessage;
@@ -157,6 +163,17 @@ public class FormTextsModels {
 	public static void setMonthFull(String monthFull) {
 		FormTextsModels.monthFull = monthFull;
 	}
-	
-	
+
+	public List<String> getOmitedList() {
+		return omitedList;
+	}
+
+	public static String getSelectedDate() {
+		return selectedDate;
+	}
+
+	public static void setSelectedDate(String selectedDate) {
+		FormTextsModels.selectedDate = selectedDate;
+	}
+
 }

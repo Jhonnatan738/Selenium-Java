@@ -109,16 +109,16 @@ public class FormStepDefinition {
 	
 	@Given("El usuario podra visualizar la aparicion de un pop up informativo")
 	public void checkNewPopUpInScreen() {
-
+		formPages.verifyPopUpDisponibility();
 	}
 	
 	@Given("se comparara la informacion ingresada con la mostrada en el pop up")
 	public void comparePopUpInformation() {
-
+		formPages.comparitionDataAlreadySent();
 	}
 	
 	@Given("el usuario podra dar click en el boton Close del pop up")
 	public void submitCloseButton() {
-
+		formPages.clickOnButtomClose();
 	}
 }
