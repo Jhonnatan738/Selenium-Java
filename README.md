@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Selenium & Java Automation Suite</h1>
+<h1 align="center"> Selenium & Java Automation Suite</h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/actions/workflow/status/Jhonnatan738/Selenium-java/maven.yml?style=for-the-badge" />
@@ -40,7 +40,7 @@ La arquitectura sigue el patrón de diseño **Page Object Model (POM)** integrad
 - ✅ **Lógica de Negocio:** Verificación de cambios de fecha y cálculos dinámicos.
 - ✅ **Confirmación de Envío:** Validación cruzada (*Data Comparison*) entre inputs y modales informativos.
 
-## ⚙️ CI/CD & Evidencia
+## CI/CD & Evidencia
 
 > [!IMPORTANT]
 > **Pipeline de GitHub Actions:** Las pruebas se ejecutan automáticamente en cada `push`, garantizando que el código siempre sea estable.
