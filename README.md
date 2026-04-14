@@ -32,7 +32,7 @@ Confirmación de Envío: Validación cruzada (Data Comparison) entre inputs y mo
 
 Tech Stack
 
-    Lenguaje: Java 17
+    Lenguaje: Java 21
 
     Automatización: Selenium WebDriver (v4.13.0)
 
