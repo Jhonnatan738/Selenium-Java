@@ -1,17 +1,17 @@
-<h1 align="center">Selenium & Java Automation Suite</h1>
+<h1 align="center">🚀 Selenium & Java Automation Suite</h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/actions/workflow/status/Jhonnatan738/Selenium-java/maven.yml?style=for-the-badge" />
   <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/-selenium-%2343B02A?style=for-the-badge&logo=selenium&logoColor=white" />
-  <img src="https://img.shields.io/badge/Serenity%20BDD-61B15A?style=for-the-badge&logo=serenitybdd&logoColor=white" />
+  <img src="https://img.shields.io/badge/github%20actions-%232088FF.svg?style=for-the-badge&logo=githubactions&logoColor=white" />
 </p>
 
-## 📝 Sobre el Proyecto
+## Sobre el Proyecto
 
-Este repositorio consiste en un **framework de automatización robusto diseñado y construido desde cero**. A diferencia de las herramientas convencionales, esta solución ha sido estructurada pieza a pieza seleccionando librerías específicas para crear un ecosistema de pruebas escalable, profesional y orientado a resultados visuales.
+Este repositorio alberga un **framework de automatización robusto diseñado y construido desde cero**. A diferencia de usar soluciones pre-configuradas, este proyecto ha sido estructurado pieza a pieza, seleccionando y conectando librerías específicas para crear un ecosistema de pruebas escalable, profesional y orientado a resultados visuales.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Herramienta | Tecnología |
 | :--- | :--- |
@@ -20,37 +20,37 @@ Este repositorio consiste en un **framework de automatización robusto diseñado
 | **Estrategia** | ![Cucumber](https://img.shields.io/badge/Cucumber-232121?style=flat-square&logo=cucumber&logoColor=white) BDD |
 | **Gestión** | ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white) |
 | **Pipeline** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
-| **Reporting** | Extent Reports & Serenity BDD |
+| **Reporting** | Extent Reports (Spark) |
 
 ---
 
-## 🏗️ Arquitectura del Framework
+## Arquitectura del Framework (Built from Scratch)
 
-La arquitectura sigue el patrón de diseño **Page Object Model (POM)** integrado con **BDD**, garantizando mantenibilidad y legibilidad:
+La arquitectura sigue el patrón de diseño **Page Object Model (POM)** integrado con **BDD**, asegurando una separación clara entre la lógica de prueba y la interacción con la interfaz:
 
 * **Núcleo de Automatización:** Construido sobre Selenium WebDriver para una manipulación precisa del DOM.
-* **Motor de BDD:** Implementación completa con Cucumber, permitiendo que los escenarios técnicos se traduzcan en lenguaje de negocio (**Gherkin**).
-* **Gestión de Binarios:** Integración de `WebDriverManager` para automatizar la compatibilidad de drivers.
-* **Reportería Avanzada:** Sistema personalizado mediante **Extent Reports**, configurado para generar dashboards interactivos y capturas de pantalla automáticas.
+* **Motor de BDD:** Implementación completa con Cucumber (Java & TestNG), traduciendo escenarios técnicos a lenguaje de negocio (**Gherkin**).
+* **Gestión Dinámica de Binarios:** Integración de `WebDriverManager` para eliminar la gestión manual de drivers y asegurar compatibilidad entre entornos.
+* **Reportería Avanzada:** Sistema personalizado mediante **Extent Reports**, configurado para generar dashboards interactivos y capturas de pantalla automáticas en caso de fallo.
 
-## 🥒 Escenarios de Prueba (Gherkin)
-
-El framework valida flujos críticos de usuario en plataformas de prueba como **DemoQA**:
+## Escenarios de Prueba (Gherkin)
 
 - ✅ **Validación de Formulario:** Verificación de campos obligatorios y estados de error.
 - ✅ **Integridad de Datos:** Validación de formatos de email y límites de caracteres.
 - ✅ **Lógica de Negocio:** Verificación de cambios de fecha y cálculos dinámicos.
-- ✅ **Confirmación de Envío:** Validación cruzada (*Data Comparison*) entre inputs y modales.
+- ✅ **Confirmación de Envío:** Validación cruzada (*Data Comparison*) entre inputs y modales informativos.
 
 ## ⚙️ CI/CD & Evidencia
 
-> [!TIP]
-> **Integración Continua:** El proyecto se ejecuta automáticamente en cada `push` mediante GitHub Actions.
+> [!IMPORTANT]
+> **Pipeline de GitHub Actions:** Las pruebas se ejecutan automáticamente en cada `push`, garantizando que el código siempre sea estable.
 
-* **Capturas de pantalla:** Se adjuntan automáticamente al reporte (exitosos y fallidos).
-* **Artefactos:** Los reportes HTML quedan disponibles como artefactos descargables en el historial de ejecuciones del Pipeline.
+* **Reportes:** El framework genera dashboards detallados mediante **Extent Reports**.
+* **Capturas de pantalla:** Se adjuntan automáticamente al reporte tanto en resultados exitosos como fallidos para auditoría visual.
+* **Ubicación local:** Los resultados se encuentran en la carpeta `reports/` tras la ejecución.
 
-## 🚀 Ejecución Local
+
+## Ejecución Local
 
 1. **Clona el repositorio:**
    ```bash
