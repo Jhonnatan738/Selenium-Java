@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=QA%20Automation%20Framework&fontSize=70" />
-</p>
-
 <h1 align="center">🚀 Selenium & Java Automation Suite</h1>
 
 <p align="center">
@@ -58,7 +54,7 @@ El framework valida flujos críticos de usuario en plataformas de prueba como **
 
 1. **Clona el repositorio:**
    ```bash
-   git clone [https://github.com/Jhonnatan738/Selenium-Java.git](https://github.com/Jhonnatan738/Selenium-Java.git)
+   git clone https://github.com/Jhonnatan738/Selenium-Java.git
 
 Ejecuta las pruebas desde la terminal:
     Bash
@@ -69,5 +65,5 @@ Ejecuta las pruebas desde la terminal:
     Resultados: Revisa la carpeta reports/ 
 
 <p align="center">
-Desarrollado por <a href="https://www.google.com/search?q=https://github.com/Jhonnatan738">Jhonnatan738</a>
+Desarrollado por <a href="https://www.jhonnatanposada.com/">Jhonnatan Posada</a>
 </p>
