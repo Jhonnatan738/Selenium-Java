@@ -66,5 +66,5 @@ Ejecuta las pruebas desde la terminal:
     Resultados: Revisa la carpeta reports/ 
 
 <p align="center">
-Desarrollado por <a href="https://www.jhonnatanposada.com/" target="_blank">Jhonnatan Posada</a>
+Desarrollado por <a href="https://www.jhonnatanposada.dev/" target="_blank">Jhonnatan Posada</a>
 </p>
